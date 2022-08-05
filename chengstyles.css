@@ -1,0 +1,162 @@
+*,
+::before, ::after {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+	--font-color: #2C3639;
+	--spacing: 1.5px;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+#navbar {
+	width: 100vw;	
+	background-color: #E2C2B9;
+	position: fixed;
+	top: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #61481C;
+	letter-spacing: var(--spacing);
+	font-weight: bold;
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding-right: 5%;
+}
+
+.navigation a {
+	padding: 30px 50px;
+}
+
+.about {
+	width: 100vw;
+	height: 100vh;
+	background-color: #E2C2B9;
+}
+
+.welcome-container, .center-wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	text-align: center;	
+}
+.welcome-container, .welcome-container h1, p {
+	color: var(--font-color, black);
+	letter-spacing: var(--spacing);
+}
+
+.welcome-container h1 {
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.welcome-container p {
+	padding-top: 15px;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.work-profile {
+	text-align: center;
+	width: 100vw;
+	height: fit-content;
+	background-color: #F1F7E7;
+	
+	
+}
+
+.work-profile h1 {
+	width: 100%;
+	padding: 40px 20px 20px;
+	text-align: center;
+	display: block;
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+.profile-grid {
+	width: 80%;
+	display: grid;
+	grid-template-columns: repeat(3, 400px);
+	gap: 30px 50px;
+	margin: 50px auto;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	
+	
+}
+
+.box {
+	margin: 0;
+	padding: 50px;
+	height: 300px;
+	border: 1px solid black;
+	/*width: 200px;*/
+}
+
+button {
+	font-size: 18px;
+	text-align: center;
+	width: 110px;
+	height: 50px;
+	background-color: #E2C2B9;
+	border: none;
+	border-radius: 2%;
+	font-weight: bold;
+	margin-bottom: 5%;
+}
+
+.contact {
+	width: 100vw;
+	height: 50vh;
+	background-color: #E2C2B9;
+	text-align: center;
+	
+}
+.center-wrapper h1,.socials{
+	padding: 20px 0;
+}
+
+.center-wrapper h1 {
+	font-size: 50px;
+	color: var(--font-color);
+}
+
+.center-wrapper p {
+	font-size: 20px;
+	font-style: italic;
+	padding: 0 0 20px;
+	
+}
+
+.center-wrapper a {
+	
+	padding: 0 20px;
+	
+}
+
+
+
+
+
